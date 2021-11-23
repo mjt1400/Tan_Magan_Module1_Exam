@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+img{
+    width: 50%;
+    height: 50%;
+
+}
