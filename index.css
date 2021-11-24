@@ -1,23 +1,69 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(#90e0ef,#caf0f8);
+    background-image: white;
+    margin:0;
 
 }
-nav{
-    height: 2em;
-    background-color: black;
+header{
+    background-color: black ;
+    width: 100%;
+    margin:auto;
+    position: fixed;
+    height:5em;
 }
 
-nav>a{
-    font-size: 20px;
+ul{
+    text-align: center;
+    display: block;
+    width:50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+    float:right;
+}
+    
+li{ 
+    display: inline-block;
+    font-size: 2rem;
+    margin:0px 2em 0px 2em;
+    font-family: 'Montserrat',sans-serif;
     color:white;
 }
+.flag-block{
+    margin-top:0.1em;
+    float:left;
+    width:35%;
+    height:100%;   
+
+    display:flex;
+    flex-direction: row;
+
+
+}
+.flag-block>img{
+    height:65%;
+    width:25%;
+    display:block;
+
+}
+
+.flag-block>h6{
+    font-size:1.5em ;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left:1em;
+    display:block;
+    color:white;
+}
+
 h1{
     margin-left: 1em;
+    margin-top:3em;
     font-family: 'Montserrat','Raleway',sans-serif;
     font-size: 3.0rem;
-    color: #03045e;
+    color: #0070bf;
     text-align: center;
 }
 div{
@@ -43,14 +89,46 @@ p{
     text-align: justify;
     font-family: 'Lato','sans-serif';
     font-size: 1.5rem;
+    color: #4A4A4A;
 }
 h3{
     font-family: 'Montserrat','Raleway',sans-serif;
     font-size: 2.0rem;
-    color: #03045e;
+    color: #0070bf;
 }
 span{
-    margin: 0 5em 0 5em;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto 5em auto 5em;
+
+}
+.greeting-block{
+    display: block;
+    margin:150px auto 150px auto;
+
+
+}
+.greeting-block >img{
+    width:25%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.greeting-block>h3{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 2.1rem;
+    text-align:center;
+
+}
+.greeting-block>p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align:center;
 }
